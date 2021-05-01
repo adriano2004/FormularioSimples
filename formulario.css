@@ -1,0 +1,42 @@
+.tudo{
+    border-style: solid;
+    border-width: 5px;
+    margin: 250px;
+    margin-top: 50px;
+    border-color: rgb(123, 42, 139)
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    margin-left:50px;
+}
+
+input{
+    margin-left: 50px;
+    background-color:white;
+}
+
+.botao{
+    background-color:black;
+    color:white
+
+}
+
+[class*=botao]:hover{
+    background-color:white;
+    color:black;
+}
+
+[class*=valor]:hover{
+    background-color:rgb(144, 233, 92);
+}
+
+.titulo{
+    text-shadow: 1px 1px 2px rgb(58, 19, 228), 0 0 25px rgb(2, 240, 248),  0 0 5px rgb(217, 22, 235);
+    color:white
+}
+
+

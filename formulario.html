@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        
+        <link href="formulario.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="tudo">
+            <h1 class="titulo">Formulario de cadastro de produto</h1>
+
+            <div>
+                <label><p>Nome do produto</p></label>
+                <input type="text" id="produto" name="produto" class="valor"><br>
+            </div>
+
+            <div class="marca">
+                <label><p>Marca do produto</p></label>
+                <input type="text" id="marca" name="marca" class="valor"><br>
+            </div>
+
+            <div>
+                <label><p>Quantidade</p></label>
+                <input type="number" id="quantidade" name="quantidade" min="1" max="100" class="valor"><br>
+            </div>
+
+            <div>
+                <label><p>Data de validade</p></label>
+                <input type="date" id="validade" name="validade" class="valor"><br>
+
+                <input type="submit" class="botao"><br>
+            </div>
+        </div>  
+
+    </body>
+</html>
